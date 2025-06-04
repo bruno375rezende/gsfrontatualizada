@@ -112,8 +112,6 @@ footer {
   color: white;
   padding: 1rem;
 }
-
-/* Responsivo */
 @media (max-width: 768px) {
   .secao {
     flex-direction: column;

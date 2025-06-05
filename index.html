@@ -19,11 +19,13 @@
 	</head>
 	<body>
 		<header class="navbar">
-			<img
-				src="imgs/logo.jpeg"
-				alt="Logo da Urbantec Solutions"
-				class="logo"
-			/>
+			<a href="index.html">
+				<img
+					src="imgs/logo.jpeg"
+					alt="Logo da Urbantec Solutions"
+					class="logo"
+				/>
+			</a>
 
 			<nav class="menu">
 				<a href="#problema">Problema</a>
@@ -32,6 +34,7 @@
 				<a href="#publico">Público-Alvo</a>
 				<a href="#beneficios">Benefícios</a>
 				<a href="#impacto">Impacto</a>
+				<a href="quiz.html">Quiz</a>
 			</nav>
 
 			<div class="menu-mobile">
@@ -48,6 +51,7 @@
 			<a href="#publico">Público-Alvo</a>
 			<a href="#beneficios">Benefícios</a>
 			<a href="#impacto">Impacto</a>
+			<a href="quiz.html">Quiz</a>
 		</aside>
 
 		<div class="overlay"></div>
@@ -169,24 +173,6 @@
 			<p>&copy; 2025 Urbantec Solutions. Todos os direitos reservados.</p>
 		</footer>
 
-		<script>
-			const hamburger = document.querySelector(".hamburguer");
-			const sidebar = document.querySelector(".sidebar");
-			const overlay = document.querySelector(".overlay");
-
-			function toggleSidebar() {
-				sidebar.classList.toggle("open");
-				overlay.classList.toggle("active");
-			}
-
-			hamburger.addEventListener("click", toggleSidebar);
-			overlay.addEventListener("click", toggleSidebar);
-
-			sidebar
-				.querySelectorAll("a")
-				.forEach((link) =>
-					link.addEventListener("click", toggleSidebar)
-				);
-		</script>
+		<script src="js/hamburguer.js"></script>
 	</body>
 </html>

@@ -201,3 +201,27 @@ footer {
 		width: 100%;
 	}
 }
+
+/* Quiz styles */
+.quiz-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.question {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.question p {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+label {
+    display: block;
+    margin: 0.3rem 0;
+}
